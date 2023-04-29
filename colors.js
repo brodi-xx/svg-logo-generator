@@ -1,4 +1,4 @@
-const colors = ['aliceblue', 'antiquewhite', 'aqua', 'aquaMarine', 'azure', 'beige', 'bisque', 'black', 'blanchedalmond', 
+const colorsKeywords = ['aliceblue', 'antiquewhite', 'aqua', 'aquaMarine', 'azure', 'beige', 'bisque', 'black', 'blanchedalmond', 
 'blue', 'blueviolet', 'brown', 'burlywood', 'cadetblue', 'chartreuse', 'chocolate', 'coral', 'cornflowerblue', 'cornsilk', 
 'crimson', 'cyan', 'darkblue', 'darkcyan', 'darkgoldenrod', 'darkgray', 'darkgrey', 'darkgreen', 'darkkhaki', 'darkmagenta', 
 'darkolivegreen', 'darkorange', 'darkorchid', 'darkred', 'darksalmon', 'darkseagreen', 'darkslateblue', 'darkslategray', 
@@ -17,7 +17,7 @@ const colors = ['aliceblue', 'antiquewhite', 'aqua', 'aquaMarine', 'azure', 'bei
 'yellow', 'yellowgreen']
 
 
-/* colors = [
+/* colorsKeywords = [
     "aliceblue" : "#f0f8ff",
     "antiquewhite": "#faebd7",
     "aqua": "#00ffff",
@@ -169,4 +169,4 @@ const colors = ['aliceblue', 'antiquewhite', 'aqua', 'aquaMarine', 'azure', 'bei
     "yellowgreen": "#9acd32"
 ] */
 
-module.exports = colors;
+module.exports = colorsKeywords;

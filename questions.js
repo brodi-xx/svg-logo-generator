@@ -1,4 +1,3 @@
-// require colorKeywords array to check if input matches one of the accepted colors
 const colorKeywords = require('./colorKeywords.js')
 
 const questions = [
@@ -122,4 +121,3 @@ const questions = [
 ];
 
 module.exports = questions;
-
