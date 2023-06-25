@@ -1,4 +1,4 @@
-const colorKeywords = require('./colorKeywords.js')
+const colorsKeywords = require('./colors.js')
 
 const questions = [
     // ***SHAPE***
@@ -17,7 +17,7 @@ const questions = [
         type: 'list',
         choices: ['color keyword', 'hexadecimal']
     },
-    // color keyword (validate with colorKeywords array)
+    // color keyword (validate with colorsKeywords array)
     {
         type: "input",
         name: "shapeColor",
@@ -30,8 +30,8 @@ const questions = [
         },
         validate: (answer) => {
             let answerLowercase = answer.toLowerCase();
-            for (var i = 0, len = colorKeywords.length; i < len; ++i) {
-                if (answerLowercase.indexOf(colorKeywords[i]) != -1) {
+            for (var i = 0, len = colorsKeywords.length; i < len; ++i) {
+                if (answerLowercase.indexOf(colorsKeywords[i]) != -1) {
                 return true;
             }}
             return console.log("\n Please enter a valid color keyword")
@@ -79,7 +79,7 @@ const questions = [
         type: 'list',
         choices: ['color keyword', 'hexadecimal']
     },
-    // color keyword (validate with colorKeywords array)
+    // color keyword (validate with colorsKeywords array)
     {
         type: "input",
         name: "textColor",
@@ -92,8 +92,8 @@ const questions = [
         },
         validate: (answer) => {
             let answerLowercase = answer.toLowerCase();
-            for (var i = 0, len = colorKeywords.length; i < len; ++i) {
-                if (answerLowercase.indexOf(colorKeywords[i]) != -1) {
+            for (var i = 0, len = colorsKeywords.length; i < len; ++i) {
+                if (answerLowercase.indexOf(colorsKeywords[i]) != -1) {
                 return true;
             }}
             return console.log("\n Please enter a valid color keyword")
