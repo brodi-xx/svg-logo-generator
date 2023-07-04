@@ -28,9 +28,10 @@ Once you have node running, you will run the app ("npm start" on the terminal co
 I used the "Helpful SVG Resources" on the assignment page, w3.org, Stack Overflow, and w3schools.com
 
 <img src = "https://github.com/brodi-xx/svg-logo-generator/blob/main/Screenshot%202023-07-04%20at%201.41.59%20PM.png?raw=true">
+
 ## License
 
-MIT
+<a href="https://opensource.org/licenses/MIT">MIT</a>
 
 ## Contributing
 
